@@ -1,5 +1,6 @@
 SRC: 
-OBJL
+OBJL:
+
 NAME: 21sh
 all : $(NAME)
 

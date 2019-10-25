@@ -1,12 +1,14 @@
-# ifdef MEMORY_REGISTRATION_H
+# ifndef MEMORY_REGISTRATION_H
 # define MEMORY_REGISTRATION_H
 
-void **memory;
+
+
+void printstr(char *str);
 typedef struct new 
 {
     int a;
     int b;
-    // void *ft_strnew(size_t);
-} t_new;
+    void printstr(char *str);
+}s_new;
 
 #endif

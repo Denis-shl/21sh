@@ -6,7 +6,10 @@
 ** 3) Дефрагминтация 
 */
 
-
+struct memory
+{
+	int a;
+};
 
 
 int  mem_add(void *str)
@@ -15,10 +18,11 @@ int  mem_add(void *str)
         return (1);
 }
 
-int main ()
+int main (void)
 {
-    struct new  two;
+	struct memory	st_new;
+	struct new		st_rev;
 
-
-    return (0);
+	st_rev.printstr("hello world");
+	return (0);
 }
