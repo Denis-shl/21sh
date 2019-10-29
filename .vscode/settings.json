@@ -1,5 +1,10 @@
 {
-    "files.associations": {
-        "memory_registration.h": "c"
-    }
-}
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": false,
+	"files.autoSave": "afterDelay",
+	"editor.renderControlCharacters": true,
+	"editor.renderWhitespace": "all",
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wrappingIndent": "indent"
+	}

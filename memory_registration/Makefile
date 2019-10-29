@@ -1,5 +1,5 @@
-CC=clang
 NAME= ft_malloc.a
+CC=clang
 FLAG= -Wall -Wextra -Werror
 SRCDIR=src
 OBJDIR = obj
@@ -23,4 +23,4 @@ fclean: clean
 	rm -rf $(NAME)
 	rm -rf $(OBJDIR)
 
-re: fclean al
+re: fclean all

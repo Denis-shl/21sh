@@ -15,7 +15,7 @@ void	memory_registration(void *memory)
 {
 	static int16_t	index = 0;
 
-	if ((REGISTER_MEMORY == NULL) || (index + 1 == S_REG ))
+	if ((REGISTER_MEMORY == NULL) || (index + 1 >= S_REG ))
 		inicializace_registr();
 	REGISTER_MEMORY[index] = memory;
 	index++;
@@ -26,6 +26,7 @@ void	*ft_malloc(size_t size)
 {
 	void *memory;
 
+	S_REG = 512;
 	memory = NULL;
 	memory = (void *)malloc(size);
 	memory_registration(memory);
