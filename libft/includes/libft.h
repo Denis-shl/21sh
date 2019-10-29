@@ -6,7 +6,7 @@
 /*   By: oargrave <oargrave@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/09/21 21:30:24 by jrameau           #+#    #+#             */
-/*   Updated: 2019/10/29 06:36:57 by oargrave         ###   ########.fr       */
+/*   Updated: 2019/10/29 19:52:14 by oargrave         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,17 @@
 # include <string.h>
 # include <unistd.h>
 # include <stdlib.h>
+# include <stdbool.h>
+/*
+** boolean 
+*/
+
+# define TRU 1
+# define FALSE 0
+
+/*
+** end boolean
+*/
 
 void				ft_putchar(char c);
 void				ft_putstr(char const *str);

@@ -6,7 +6,7 @@
 /*   By: oargrave <oargrave@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/22 12:08:20 by oargrave          #+#    #+#             */
-/*   Updated: 2019/10/29 07:11:40 by oargrave         ###   ########.fr       */
+/*   Updated: 2019/10/29 19:36:10 by oargrave         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ int	ft_atoi(const char *str)
 
 	flag = 1;
 	res = 0;
+
 	while ((*str == ' ') || (*str >= 9 && *str <= 13))
 	{
 		str++;
