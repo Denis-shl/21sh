@@ -2,11 +2,11 @@
 # define VECTOR_H
 
 # include <unistd.h>
-
+# include "meta.h"
 /*
 ** create new vector
 */
-void	*init_vector(ssize_t size);
+void	*init_vector(size_t el_size, size_t count);
 
 /*
 ** free vector
@@ -18,7 +18,7 @@ void	ft_vector_free(void *vector);
 ** add items to the end
 */
 
-void	ft_push_end(void *vector, size_t size);
+void	ft_push(void *buff, void *data);
 
 /*
 ** add items to the start 

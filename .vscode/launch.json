@@ -8,7 +8,7 @@
 			"name": "(lldb) Запустить",
 			"type": "cppdbg",
 			"request": "launch",
-			"program": "/Users/oargrave/school/my_21sh/memory_registration/src/a.out",
+			"program": "/Users/oargrave/school/my_21sh/vector/a.out",
 			"args": [],
 			"stopAtEntry": false,
 			"cwd": "${workspaceFolder}",
